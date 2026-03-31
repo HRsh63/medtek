@@ -1,2 +1,2 @@
 # medtek
-an platram making hospilization and trestment easy
+an platform making hospilization and trestment easy
