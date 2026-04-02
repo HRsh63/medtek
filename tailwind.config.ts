@@ -1,18 +1,25 @@
-﻿/** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
       colors: {
-        bg: { DEFAULT: '#050A0F', card: '#0A1628', border: '#1A2D4A' },
-        accent: { blue: '#0066FF', cyan: '#00D4FF', green: '#00FF94', red: '#FF4444' },
-        text: { primary: '#FFFFFF', secondary: '#8899AA', muted: '#445566' },
+        background: '#050A0F',
+        card: '#0E2235',
+        card2: '#102848',
+        green: '#00FF88',
+        coral: '#FF4D6D',
+        amber: '#FFB347',
+        ice: '#C8F0FF',
+        muted: '#5A8FAA',
+        border: '#1A3A5C',
       },
-      fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+      fontFamily: {
+        sans: ['var(--font-dm-sans)', 'system-ui', 'sans-serif'],
+        syne: ['var(--font-syne)', 'sans-serif'],
+      },
     },
   },
   plugins: [],
